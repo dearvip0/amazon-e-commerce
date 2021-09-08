@@ -10,6 +10,7 @@ app.get("/", function (req, res) {
   console.log(data);
 });
 
+// eslint-disable-next-line no-undef
 const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, function () {
