@@ -1,0 +1,26 @@
+{
+  "name": "amazon-e-commerce",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Learnning react-redux-ruduxthunk",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch server --exec node --experimental-modules server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dearvip0/amazon-e-commerce.git"
+  },
+  "author": "baothuong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dearvip0/amazon-e-commerce/issues"
+  },
+  "homepage": "https://github.com/dearvip0/amazon-e-commerce#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
